@@ -3,7 +3,6 @@
 void calcularTotalPedido(float valorReal, float *valorFinal, float *custoFrete) {
     float total = valorReal;
 
-    // Desconto de 10% se a compra for maior que 200
     if (valorReal > 200.0) {
         total = valorReal * 0.90;
     }
@@ -13,7 +12,7 @@ void calcularTotalPedido(float valorReal, float *valorFinal, float *custoFrete) 
 	
     // Frete
     if (total > 250.0) {
-        *custoFrete = 0.0; // Grátis
+        *custoFrete = 0.0; // Gratis
     } else {
         *custoFrete = 15.00; // Fixo
     }
