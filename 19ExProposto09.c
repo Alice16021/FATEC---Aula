@@ -4,7 +4,7 @@ float somaDiagonalPrincipal(float matriz[4][4]) {
     float soma = 0.0;
     int i;
     for (i = 0; i < 4; i++) {
-        soma += matriz[i][i]; // Na diagonal principal, o indice da linha é igual ao da coluna
+        soma += matriz[i][i];
     }
     return soma;
 }
