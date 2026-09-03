@@ -14,7 +14,6 @@ void imprimeVetor(int vetor[], int tamanho) {
     for (i = 0; i < tamanho; i++) {
         printf("%d ", vetor[i]);
     }
-    printf("\n");
 }
 
 int main() {
